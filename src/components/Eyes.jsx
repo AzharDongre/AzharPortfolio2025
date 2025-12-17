@@ -57,8 +57,11 @@ function Eyes() {
       <button className="absolute top-1/2 left-1/2 -translate-x-[50%] translate-y-[20vh] z-20 text-zinc-900 font-['Founders_Grotesk_X-Condensed'] leading-relaxed border-zinc-900 px-3 py-1 sm:px-4 sm:py-2 md:px-6 md:py-2 lg:px-8 lg:py-2 xl:px-8 xl:py-2 rounded-full border-2 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl tracking-wide sm:tracking-wider cursor-pointer hover:bg-zinc-900 hover:text-zinc-200 transition-colors duration-300">
         <a href="mailto:mohdazhardongre@gmail.com">mohdazhardongre@gmail.com</a>
       </button>
-      <button className="absolute top-1/2 left-1/2 -translate-x-[50%] translate-y-[28vh] sm:translate-y-[30vh] md:translate-y-[32vh] lg:translate-y-[34vh] xl:translate-y-[36vh] z-20 text-zinc-900 font-['Founders_Grotesk_X-Condensed'] leading-relaxed border-zinc-900 px-3 py-1 sm:px-4 sm:py-2 md:px-6 md:py-2 lg:px-8 lg:py-2 xl:px-8 xl:py-2 rounded-full border-2 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl tracking-wide sm:tracking-wider cursor-pointer hover:bg-zinc-900 hover:text-zinc-200 transition-colors duration-300">
-        <a href="tel:+971566225406">+971 566225406</a>
+      <button
+        onClick={() => window.open("https://wa.me/+971566225406", "_blank")}
+        className="absolute top-1/2 left-1/2 -translate-x-[50%] translate-y-[28vh] sm:translate-y-[30vh] md:translate-y-[32vh] lg:translate-y-[34vh] xl:translate-y-[36vh] z-20 text-zinc-900 font-['Founders_Grotesk_X-Condensed'] leading-relaxed border-zinc-900 px-3 py-1 sm:px-4 sm:py-2 md:px-6 md:py-2 lg:px-8 lg:py-2 xl:px-8 xl:py-2 rounded-full border-2 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl tracking-wide sm:tracking-wider cursor-pointer hover:bg-zinc-900 hover:text-zinc-200 transition-colors duration-300"
+      >
+        <span>+971 566225406</span>
       </button>
       <div
         data-scroll

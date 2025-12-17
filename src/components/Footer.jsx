@@ -38,13 +38,20 @@ function Footer() {
             {/* These could also open external links */}
             <button
               className="block text-left text-base mb-2 hover:opacity-70"
-              onClick={() => window.open("https://wa.me/+97156969225406", "_blank")}
+              onClick={() =>
+                window.open("https://wa.me/+971566225406", "_blank")
+              }
             >
               WhatsApp
             </button>
             <button
               className="block text-left text-base mb-2 hover:opacity-70"
-              onClick={() => window.open("www.linkedin.com/in/mohammed-azhar-dongre-285aa71b6", "_blank")}
+              onClick={() =>
+                window.open(
+                  "https://linkedin.com/in/mohammed-azhar-dongre-285aa71b6",
+                  "_blank"
+                )
+              }
             >
               LinkedIn
             </button>

@@ -5,7 +5,7 @@ import {
   useMotionValueEvent,
   AnimatePresence,
 } from "framer-motion";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaDownload } from "react-icons/fa";
 
 function Navbar() {
   const { scrollY } = useScroll();
@@ -123,6 +123,31 @@ function Navbar() {
           )}
         </button>
       </motion.div>
+
+      <a
+        href="https://drive.google.com/uc?export=download&id=16EkKtNEBjzTlekKr5sBK_jcJSyflitEn"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group fixed bottom-4 right-4 md:bottom-8 md:right-8 z-[1100]
+             rounded-full border border-white/30 bg-black/60 backdrop-blur-md
+             p-3 md:p-4 flex items-center justify-center
+             text-white hover:bg-white hover:text-black
+             transition-all duration-200 shadow-lg"
+        aria-label="Download Resume"
+      >
+        <FaDownload className="text-red-500 text-xl" />
+
+        {/* Tooltip - hidden on mobile */}
+        <span
+          className="hidden md:block absolute right-full mr-3 top-1/2 -translate-y-1/2
+               whitespace-nowrap px-3 py-1 rounded-md
+               bg-black/80 text-white text-xs opacity-0
+               group-hover:opacity-100 transition-opacity duration-300
+               pointer-events-none select-none"
+        >
+          Download Resume
+        </span>
+      </a>
 
       {/* Mobile Menu Dropdown */}
       <AnimatePresence>
