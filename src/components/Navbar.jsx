@@ -125,7 +125,7 @@ function Navbar() {
       </motion.div>
 
       <a
-        href="https://drive.google.com/file/d/1gcVTq2pJgnJmDgE8HStVeftcbTSceAOS/view?usp=drive_link"
+        href="https://drive.google.com/uc?export=download&id=1gcVTq2pJgnJmDgE8HStVeftcbTSceAOS"
         target="_blank"
         rel="noopener noreferrer"
         className="group fixed bottom-4 right-4 md:bottom-8 md:right-8 z-[1100]
